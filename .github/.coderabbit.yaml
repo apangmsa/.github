@@ -11,11 +11,10 @@ reviews:
   review_status: true
   collapse_walkthrough: true
   poem: false
-    # 이 설정을 추가해야 default 브랜치가 아닌 곳으로 향하는 PR도 리뷰합니다.
   target_branches:
-    - "main"
-    - "develop"
-    - "feature/*"  # 와일드카드 사용 가능
+  - "main"
+  - "develop"
+  - "feature/*"
 
   path_filters:
     - "!**/*.md"
