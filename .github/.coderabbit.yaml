@@ -14,6 +14,7 @@ reviews:
   target_branches:
   - "main"
   - "develop"
+  - "dev"
   - "feature/*"
 
   path_filters:
